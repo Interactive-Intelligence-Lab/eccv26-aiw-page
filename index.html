@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Agent in World: Living Worlds with Interactive Agents, an ECCV 2026 workshop on interactive intelligence between agents and worlds."
+    >
+    <title>Agent in World | ECCV 2026 Workshop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Agent in World home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Agent in World</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#topics">Topics</a>
+        <a href="#cfp">Call for Papers</a>
+        <a href="#program">Program</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#organizers">Organizers</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="world-grid" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">ECCV 2026 Workshop</p>
+          <h1 id="hero-title">Agent in World: Living Worlds with Interactive Agents</h1>
+          <p class="hero-copy">
+            A half-day workshop on interactive intelligence at the intersection of generative world
+            models, embodied agents, visual foundation models, games, simulation, and human-world interaction.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#cfp">Submit Work</a>
+            <a class="button secondary" href="#program">View Program</a>
+          </div>
+          <dl class="event-facts" aria-label="Workshop facts">
+            <div>
+              <dt>Venue</dt>
+              <dd>ECCV 2026</dd>
+            </div>
+            <div>
+              <dt>Date</dt>
+              <dd>TBA</dd>
+            </div>
+            <div>
+              <dt>Format</dt>
+              <dd>Half day</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section" id="overview">
+        <div class="section-heading">
+          <p class="eyebrow">Overview</p>
+          <h2>Can an agent live in a world?</h2>
+        </div>
+        <div class="two-column">
+          <div>
+            <p>
+              Recent breakthroughs in generative world models and generative agents have opened a path toward
+              living worlds: dynamic, persistent environments where agents perceive, communicate, act, and evolve
+              together with the worlds they inhabit.
+            </p>
+            <p>
+              Agent in World studies the gap between passive generation and static embodiment. Instead of treating
+              environments as visual backdrops or agents as task executors, the workshop frames agents and worlds as
+              reactive, intelligent participants in the same evolving system.
+            </p>
+          </div>
+          <div class="callout">
+            <h3>Workshop Scope</h3>
+            <p>
+              We invite researchers from computer vision, graphics, robotics, games, simulation, HCI, machine learning,
+              and AI safety to discuss how visual foundation models can connect pixels, action, interaction, and long-term
+              behavioral coherence.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="topics">
+        <div class="section-heading">
+          <p class="eyebrow">Interaction Axes</p>
+          <h2>From isolated agents to living systems</h2>
+        </div>
+        <div class="axis-grid">
+          <article>
+            <span>01</span>
+            <h3>NPC to NPC</h3>
+            <p>Social intelligence, perception, communication, collaboration, emotion, and long-term relationships.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>NPC to World</h3>
+            <p>Physical intelligence, manipulation, procedural change, and reactive environment dynamics.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Living Systems</h3>
+            <p>Collective populations interacting inside shared worlds with emergent social and physical behaviors.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Massive Interactions</h3>
+            <p>Human intervention, user control, mixed-initiative world editing, and interactive storytelling.</p>
+          </article>
+        </div>
+
+        <div class="topic-list" aria-label="Workshop topics">
+          <h3>Topics of Interest</h3>
+          <ul>
+            <li>Generative models for NPC behavior, memory, personality, dialogue, and decision-making.</li>
+            <li>Generative world models for interactive environments, procedural content, and dynamic scenes.</li>
+            <li>Physics-aware environment representations, simulators, datasets, benchmarks, and evaluation protocols.</li>
+            <li>Applications in next-generation NPCs, games, social VR, metaverse systems, training, simulation, and AI-driven storytelling.</li>
+            <li>Ethics, safety, controllability, and responsible deployment of interactive agents in generated worlds.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="cfp">
+        <div class="section-heading">
+          <p class="eyebrow">Call for Papers</p>
+          <h2>Submission Tracks</h2>
+        </div>
+        <div class="cfp-layout">
+          <article class="submission-card">
+            <h3>Non-proceedings Track</h3>
+            <p>
+              Original short papers, position papers, benchmark proposals, datasets, systems, demos, and early-stage
+              research are welcome. Accepted submissions will be presented at the workshop but will not appear in the
+              official ECCV proceedings.
+            </p>
+          </article>
+          <article class="submission-card">
+            <h3>Proceedings Track</h3>
+            <p>
+              Original research papers seeking formal workshop publication are invited to submit to the proceedings
+              track. Accepted papers in this track will follow the official formatting, review, and camera-ready
+              requirements announced with the submission instructions.
+            </p>
+          </article>
+          <article class="submission-card">
+            <h3>Published Work Track</h3>
+            <p>
+              We welcome recently published or accepted work relevant to interactive agents, world models, games,
+              simulation, embodied AI, and human-world interaction. This track is intended to broaden discussion and
+              connect active communities; submissions will be considered for talks or posters.
+            </p>
+          </article>
+        </div>
+        <div class="details-grid">
+          <div>
+            <h3>Important Dates</h3>
+            <ul class="plain-list">
+              <li>Submission deadline: TBA</li>
+              <li>Notification: TBA</li>
+              <li>Camera-ready / final material: TBA</li>
+              <li>Workshop: TBA at ECCV 2026</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Submission Site</h3>
+            <p>
+              The submission portal and formatting instructions will be announced soon. Please check back for updates.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="program">
+        <div class="section-heading">
+          <p class="eyebrow">Program</p>
+          <h2>Tentative Half-Day Schedule</h2>
+        </div>
+        <div class="schedule">
+          <div><time>08:30 - 08:40</time><span>Opening remarks and workshop vision</span></div>
+          <div><time>08:40 - 09:40</time><span>Keynote 1 and Keynote 2</span></div>
+          <div><time>09:40 - 10:10</time><span>Oral session: Contributed papers</span></div>
+          <div><time>10:10 - 10:40</time><span>Coffee break and Poster session</span></div>
+          <div><time>10:40 - 11:40</time><span>Keynote 3 and Keynote 4</span></div>
+          <div><time>11:40 - 12:00</time><span>Industry demo session</span></div>
+          <div><time>12:00 - 12:20</time><span>Challenge presentation and award</span></div>
+          <div><time>12:20 - 12:30</time><span>Best paper award and closing remarks</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="speakers">
+        <div class="section-heading">
+          <p class="eyebrow">Invited Speakers</p>
+          <h2>Confirmed and tentative keynote speakers</h2>
+        </div>
+        <div class="people-grid speakers">
+          <article><img class="person-photo" src="assets/people/yilun-du.png" alt="Yilun Du"><p class="status">Confirmed</p><h3>Yilun Du</h3><p>Assistant Professor, Harvard University</p></article>
+          <article><img class="person-photo" src="assets/people/lianhui-qin.jpg" alt="Lianhui Qin"><p class="status">Confirmed</p><h3>Lianhui Qin</h3><p>Assistant Professor, UC San Diego</p></article>
+          <article><img class="person-photo" src="assets/people/jinwei-gu.jpg" alt="Jinwei Gu"><p class="status">Confirmed</p><h3>Jinwei Gu</h3><p>Principal Research Scientist, NVIDIA</p></article>
+          <article><img class="person-photo" src="assets/people/taku-komura.jpg" alt="Taku Komura"><p class="status">Confirmed</p><h3>Taku Komura</h3><p>Professor, The University of Hong Kong</p></article>
+          <article><img class="person-photo" src="assets/people/shunsuke-saito.jpg" alt="Shunsuke Saito"><p class="status tentative">Tentative</p><h3>Shunsuke Saito</h3><p>Research Scientist, Meta Reality Labs</p></article>
+          <article><img class="person-photo" src="assets/people/haiyang-liu.jpg" alt="Haiyang Liu"><p class="status tentative">Tentative</p><h3>Haiyang Liu</h3><p>Shanda AI Research Tokyo</p></article>
+        </div>
+      </section>
+
+      <section class="section muted" id="organizers">
+        <div class="section-heading">
+          <p class="eyebrow">Organizers</p>
+          <h2>Research across vision, graphics, agents, and worlds</h2>
+        </div>
+        <div class="people-group">
+          <h3>Organizers</h3>
+          <div class="people-grid">
+            <article><img class="person-photo" src="assets/people/zhixiang-wang.jpg" alt="Zhixiang Wang"><h3>Zhixiang Wang</h3><p>Shanda AI Research Tokyo</p></article>
+            <article><img class="person-photo" src="assets/people/yichen-peng.jpg" alt="Yichen Peng"><h3>Yichen Peng</h3><p>Institute of Science Tokyo</p></article>
+            <article><img class="person-photo" src="assets/people/haiyang-liu.jpg" alt="Haiyang Liu"><h3>Haiyang Liu</h3><p>Shanda AI Research Tokyo</p></article>
+          </div>
+        </div>
+        <div class="people-group">
+          <h3>Advising Team</h3>
+          <div class="people-grid advising-team">
+            <article><img class="person-photo" src="assets/people/kaipeng-zhang.jpg" alt="Kaipeng Zhang"><h3>Kaipeng Zhang</h3><p>Shanda AI Research Tokyo</p></article>
+            <article><img class="person-photo" src="assets/people/erwin-wu.png" alt="Erwin Wu"><h3>Erwin Wu</h3><p>Institute of Science Tokyo / Shanda AI Research Tokyo</p></article>
+            <article><img class="person-photo" src="assets/people/bo-zheng.jpg" alt="Bo Zheng"><h3>Bo Zheng</h3><p>Shanda AI Research Tokyo</p></article>
+            <article><img class="person-photo" src="assets/people/jinwei-gu.jpg" alt="Jinwei Gu"><h3>Jinwei Gu</h3><p>NVIDIA</p></article>
+            <article><img class="person-photo" src="assets/people/taku-komura.jpg" alt="Taku Komura"><h3>Taku Komura</h3><p>The University of Hong Kong</p></article>
+            <article><img class="person-photo" src="assets/people/ming-hsuan-yang.jpg" alt="Ming-Hsuan Yang"><h3>Ming-Hsuan Yang</h3><p>University of California, Merced / Google DeepMind</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Questions?</h2>
+          <p>
+            Please contact the workshop organizers at
+            <a href="mailto:wangzx1994@gmail.com">wangzx1994@gmail.com</a>,
+            <a href="mailto:haiyangliu1997@gmail.com">haiyangliu1997@gmail.com</a>, or
+            <a href="mailto:yichen.p.8896@m.isct.ac.jp">yichen.p.8896@m.isct.ac.jp</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Agent in World: Living Worlds with Interactive Agents - ECCV 2026 Workshop</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

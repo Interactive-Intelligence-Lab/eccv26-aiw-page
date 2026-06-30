@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Yichen Peng placeholder portrait</title>
+  <rect width="240" height="240" rx="28" fill="#eef4f0"/>
+  <circle cx="120" cy="88" r="42" fill="#1d6b54"/>
+  <path d="M48 218c9-45 38-72 72-72s63 27 72 72" fill="#1c8a8d"/>
+  <text x="120" y="102" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#ffffff">YP</text>
+</svg>
